@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+/* Elements */
+
+hr {
+  border: none;
+  height: 0.1em;
+  background-color: lime;
+}
+
+input {
+  color: black;
+  background-color: lime;
+  font-size: 1.25em;
+}
+
+/* Text Stuff */
+
+a {
+  color: lime
+}
+
+li {
+  color: lime;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.5em;
+  color: lime;
+}
+
+h1 {
+  font-size: 3em;
+  color: lime;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: lime;
+}
+
+h3 {
+  font-size: 2em;
+  color: lime;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: lime;
+}
