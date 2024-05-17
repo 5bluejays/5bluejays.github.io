@@ -76,6 +76,10 @@ a {
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
+a:hover {
+  color: white;
+}
+
 li {
   color: lime;
   font-size: 1.5em;
