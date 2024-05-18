@@ -58,16 +58,16 @@ hr {
   border: none;
   height: 0.3em;
   background-color: lime;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 input {
   color: black;
   background-color: lime;
   font-size: 1.25em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* Text Stuff */
@@ -82,22 +82,22 @@ a:hover {
 }
 
 img {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 li {
   color: lime;
   font-size: 1.5em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
 p {
   font-size: 1.5em;
   color: lime;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
@@ -105,31 +105,31 @@ h1 {
   font-size: 3em;
   color: lime;
   text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h2 {
   font-size: 2.5em;
   color: lime;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h3 {
   font-size: 2em;
   color: lime;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h4 {
   font-size: 1.5em;
   color: lime;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
 }
