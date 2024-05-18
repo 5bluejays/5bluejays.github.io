@@ -81,6 +81,10 @@ a:hover {
   color: white;
 }
 
+img {
+  margin-left: 20px;
+}
+
 li {
   color: lime;
   font-size: 1.5em;
