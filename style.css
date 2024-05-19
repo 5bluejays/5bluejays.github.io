@@ -85,6 +85,10 @@ img {
   margin-left: 50px;
 }
 
+ul {
+  list-style-type: "–  ";
+}
+
 li {
   color: lime;
   font-size: 1.5em;
