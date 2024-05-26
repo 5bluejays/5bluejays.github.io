@@ -52,6 +52,10 @@ body {
   color: lime;
 }
 
+.bigimg {
+  width: 100%;
+}
+
 /* Elements */
 
 hr {
