@@ -88,7 +88,7 @@ ul {
 }
 
 li {
-  color: #042743;
+  color: #000000;
   font-size: 1.5em;
   margin-left: 50px;
   margin-right: 50px;
@@ -97,7 +97,7 @@ li {
 
 p {
   font-size: 1.5em;
-  color: #042743;
+  color: #000000;
   margin-left: 50px;
   margin-right: 50px;
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
