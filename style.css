@@ -1,14 +1,14 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: ghostwhite;
   margin: 0;
 }
 
 /* Navbar */
 
 .navbar {
-  background-color: lime;
+  background-color: #00c0c0;
   position: sticky;
   padding-bottom: 1em;
   top: 0;
@@ -43,17 +43,11 @@ body {
 }
 
 .navbar a:hover {
-  background-color: black;
-  color: lime;
-}
-
-.navbar #logo:hover {
-  background-color: lime;
-  color: lime;
+  color: white;
 }
 
 .bigimg {
-  width: 100%;
+  width: 85%;
 }
 
 /* Elements */
@@ -61,14 +55,14 @@ body {
 hr {
   border: none;
   height: 0.3em;
-  background-color: lime;
+  background-color: #00c0c0;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 input {
-  color: black;
-  background-color: lime;
+  color: #042743;
+  background-color: #00c0c0;
   font-size: 1.25em;
   margin-left: 50px;
   margin-right: 50px;
@@ -77,12 +71,12 @@ input {
 /* Text Stuff */
 
 a {
-  color: lime;
+  color: #00c0c0;
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
 a:hover {
-  color: white;
+  color: #00c080;
 }
 
 img {
@@ -94,7 +88,7 @@ ul {
 }
 
 li {
-  color: lime;
+  color: #042743;
   font-size: 1.5em;
   margin-left: 50px;
   margin-right: 50px;
@@ -103,7 +97,7 @@ li {
 
 p {
   font-size: 1.5em;
-  color: lime;
+  color: #042743;
   margin-left: 50px;
   margin-right: 50px;
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
@@ -111,7 +105,7 @@ p {
 
 h1 {
   font-size: 3em;
-  color: lime;
+  color: #00c0c0;
   text-align: center;
   margin-left: 50px;
   margin-right: 50px;
@@ -120,7 +114,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  color: lime;
+  color: #00c0c0;
   margin-left: 50px;
   margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
@@ -128,7 +122,7 @@ h2 {
 
 h3 {
   font-size: 2em;
-  color: lime;
+  color: #00c0c0;
   margin-left: 50px;
   margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
@@ -136,7 +130,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  color: lime;
+  color: #00c0c0;
   margin-left: 50px;
   margin-right: 50px;
   font-family: Roboto, Helvetica, sans-serif;
