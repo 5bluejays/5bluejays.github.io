@@ -10,14 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "Friday - The Mini",
         "Saturday - The Super Cryptic"
     ];
-
-    // Read file function
-    async function read() {
-        const response = await fetch("crosswords/" + datestr + ".json");
-        const data = await response.json();
-        return data;
-    };
-
+    
     // Get today's date
     var today = new Date();
     var yyyy = today.getFullYear();
