@@ -1,3 +1,13 @@
+:root {
+  --margin: 50px;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --margin: 25px;
+  }
+}
+
 body {
   height: 100%;
   width: 100%;
@@ -16,10 +26,7 @@ body {
 }
 
 .navbar a {
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
   color: black;
   font-size: 1.5em;
   margin: 0;
@@ -27,10 +34,7 @@ body {
 }
 
 .navbar #logo {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -50,22 +54,62 @@ body {
   width: 85%;
 }
 
+/* Crossword Stuff */
+
+#crossword {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+.crosswordelement {
+  min-height: 15em;
+  margin-left: var(--margin);
+}
+
+.crosswordimg {
+  align-self: flex-start;
+}
+
+.crosswordclues {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (max-width: 900px) {
+  #crossword {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .crosswordelement {
+    margin-top: 2em;
+    margin-right: var(--margin);
+  }
+
+  .crosswordimg {
+    width: calc(100% - (2 * var(--margin)));
+    margin-right: var(--margin);
+  }
+}
+
 /* Elements */
 
 hr {
   border: none;
   height: 0.3em;
   background-color: #00c0c0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
 }
 
 input {
   color: #042743;
   background-color: #00c0c0;
   font-size: 1.25em;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
 }
 
 /* Text Stuff */
@@ -80,7 +124,7 @@ a:hover {
 }
 
 img {
-  margin-left: 50px;
+  margin-left: var(--margin);
 }
 
 ul {
@@ -90,16 +134,16 @@ ul {
 li {
   color: #000000;
   font-size: 1.5em;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
 p {
   font-size: 1.5em;
   color: #000000;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: "Roboto Slab", Roboto, Helvetica, sans-serif;
 }
 
@@ -107,31 +151,31 @@ h1 {
   font-size: 3em;
   color: #00c0c0;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h2 {
   font-size: 2.5em;
   color: #00c0c0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h3 {
   font-size: 2em;
   color: #00c0c0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: Roboto, Helvetica, sans-serif;
 }
 
 h4 {
   font-size: 1.5em;
   color: #00c0c0;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
   font-family: Roboto, Helvetica, sans-serif;
 }
