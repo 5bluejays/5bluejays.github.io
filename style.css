@@ -74,7 +74,7 @@ body {
 .crosswordclues {
   margin-left: 0;
   margin-right: 0;
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 @media (max-width: 900px) {
