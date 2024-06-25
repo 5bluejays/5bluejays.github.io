@@ -56,7 +56,7 @@ body {
 
 /* Crossword Stuff */
 
-#crossword {
+#mini, #cryptic, #midi {
   display: flex;
   width: 100%;
   align-items: stretch;
@@ -78,12 +78,12 @@ body {
 }
 
 @media (max-width: 900px) {
-  #crossword {
+  #mini, #cryptic, #midi {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-  
+
   .crosswordelement {
     margin-top: 2em;
     margin-right: var(--margin);
