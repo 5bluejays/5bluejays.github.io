@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     down.src = filename + "D.html";
 
     // Add everything to the webpage
-    document.getElementById("mini").appendChild(img);
-    document.getElementById("mini").appendChild(across);
-    document.getElementById("mini").appendChild(down);
+    document.getElementById("crossword").appendChild(img);
+    document.getElementById("crossword").appendChild(across);
+    document.getElementById("crossword").appendChild(down);
 });
