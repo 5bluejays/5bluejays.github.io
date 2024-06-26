@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Year: " + year);
 
     // Construct the file name for today's mini
-    var filename = "minis/M" + weekNumber + "-" + year;
+    var filename = "cryptics/C" + weekNumber + "-" + year;
 
     // Create an img element to go in the html
     var img = document.createElement("img");
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     down.src = filename + "D.html";
 
     // Add everything to the webpage
-    document.getElementById("mini").appendChild(img);
-    document.getElementById("mini").appendChild(across);
-    document.getElementById("mini").appendChild(down);
+    document.getElementById("crossword").appendChild(img);
+    document.getElementById("crossword").appendChild(across);
+    document.getElementById("crossword").appendChild(down);
 });
