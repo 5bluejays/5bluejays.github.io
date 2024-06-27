@@ -48,18 +48,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Construct the file name for today's mini
     var filename = "ladders/L" + weekNumber + "-" + year;
 
-    // Create an img element to go in the html
-    var img = document.createElement("img");
-    img.classList.add("crosswordimg");
-    img.src = filename + ".png";
-    img.alt = "Today's Crossword";
-
     // Create the clues
     var across = document.createElement("embed");
     across.classList.add("crosswordelement");
     across.src = filename + ".html";
 
     // Add everything to the webpage
-    document.getElementById("crossword").appendChild(img);
     document.getElementById("crossword").appendChild(across);
 });
