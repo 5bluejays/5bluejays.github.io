@@ -47,12 +47,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Construct the file name for today's mini
     var filename = "connections/CC" + weekNumber + "-" + year;
+    var solutionfilename = "solutions/SCC" + (weekNumber-1) + "-" + year;
+    console.log(solutionfilename)
 
-    // Create the embed
+    // Create the embeds
     var grid = document.createElement("embed");
     grid.classList.add("connectionsgrid");
     grid.src = filename + ".html";
+    var solution = document.createElement("embed");
+    solution.classList.add("solutionsgrid");
+    solution.src = solutionfilename + ".html";
 
     // Add everything to the webpage
     document.getElementById("connections").appendChild(grid);
+    document.getElementById("solution").appendChild(solution);
 });
