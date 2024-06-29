@@ -219,7 +219,7 @@ input {
 /* Text Stuff */
 
 embed {
-  width: 100%;
+  width: calc(100% - (2 * var(--margin)));
   height: 100%;
 }
 
