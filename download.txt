@@ -1,5 +1,0 @@
-<h1>Welcome to the Byeee! Download Page</h1>
-
-<button>
-    <a download="bye.txt">Download File</a>
-</button>
